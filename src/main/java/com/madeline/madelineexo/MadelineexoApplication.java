@@ -8,6 +8,7 @@ public class MadelineexoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MadelineexoApplication.class, args);
+
 	}
 
 }
