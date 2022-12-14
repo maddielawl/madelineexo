@@ -15,8 +15,8 @@ class stringrepeatTest {
     @Test
     void repeat() {
 
-        String[] test = { "toto" , "titi" , "tata" };
-        assertFalse(stringrepeat.repeat(test).isEmpty());
+        //String[] test = { "toto" , "titi" , "tata" };
+        assertFalse(stringrepeat.repeat("test").isEmpty());
 
     }
 }

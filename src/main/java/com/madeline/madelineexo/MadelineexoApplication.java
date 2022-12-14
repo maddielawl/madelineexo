@@ -6,11 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MadelineexoApplication {
 
-	// public static void main(String[] args) {
-		//SpringApplication.run(MadelineexoApplication.class, args);
+	    public static void main(String[] args) {
+		SpringApplication.run(MadelineexoApplication.class, args);
 
 
 
-	}
+	}}
 
 
