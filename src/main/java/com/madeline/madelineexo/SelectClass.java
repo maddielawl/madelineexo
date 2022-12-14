@@ -4,8 +4,11 @@ import com.madeline.madelineexo.classPlayer.ClassP;
 
 public class SelectClass {
 
-    public void chooseAClass(String myVar) {
+    public String chooseAClass() {
         ClassP playerClasse = ClassP.NINJA;
+        String Ninja = ClassP.NINJA.toString();
+        String Mage = ClassP.MAGE.toString();
+        String Warrior = ClassP.WARRIOR.toString();
         switch(playerClasse) 
         {
           case MAGE:
@@ -18,5 +21,7 @@ public class SelectClass {
             System.out.println("Tu as choisit Warrior!");
             break;
         }
+
+        return playerClasse.toString();
     }
 }
