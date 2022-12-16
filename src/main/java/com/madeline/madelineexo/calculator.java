@@ -9,16 +9,16 @@ public class calculator {
         String operator;
 
         // Print a welcome message
-        System.out.println("Welcome to the Calculator program!");
+        System.out.println("Bienvenue sur la calculette");
 
         // Loop until the user chooses to exit
         while (true) {
             // Get the first number from the user
-            System.out.print("Enter the first number: ");
+            System.out.print("Entrez un numéro ");
             num1 = scanner.nextDouble();
 
             // Get the operator from the user
-            System.out.print("Enter the operator (+, -, *, /, or Q to quit): ");
+            System.out.print("Entrez le signe de calcul (+, -, *, /, ou Q pour quitter): ");
             operator = scanner.next();
 
             // If the user wants to exit, break out of the loop
@@ -27,7 +27,7 @@ public class calculator {
             }
 
             // Get the second number from the user
-            System.out.print("Enter the second number: ");
+            System.out.print("Entrez un second numero ");
             num2 = scanner.nextDouble();
 
             // Perform the calculation
@@ -46,24 +46,30 @@ public class calculator {
                     result = num1 / num2;
                     break;
                 default:
-                    System.out.println("Invalid operator!");
+                    System.out.println("Signe invalide");
                     break;
             }
 
             // Print the result
-            System.out.println("Result: " + result);
+            System.out.println("Resultat: " + result);
 
             // Ask the user if they want to clear the calculation
-            System.out.print("Clear calculation (Y/N)? ");
+            System.out.print("Recommencer ? (Y/N)? ");
             if (scanner.next().equalsIgnoreCase("Y")) {
                 // Clear the result and start the loop over
                 result = 0;
                 continue;
             }
+            else{
+                // Print a goodbye message
+                System.out.println("Merci d'avoir utiliser la calculette");
+                main menu = new main();
+                menu.main(args);
+            }
         }
 
-        // Print a goodbye message
-        System.out.println("Goodbye! Thank you for using the Calculator program.");
+
+
     }
 
 }

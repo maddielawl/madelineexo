@@ -9,7 +9,7 @@ public class stringrepeat {
         // java user input of string type
         // String name = input.nextLine();
         // printing the java use input
-        System.out.println("Your name is: "+name);
+        System.out.println("Ton nom est: "+name);
         return name;
 
     }

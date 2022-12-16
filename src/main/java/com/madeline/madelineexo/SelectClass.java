@@ -23,5 +23,6 @@ public class SelectClass {
         }
 
         return playerClasse.toString();
+
     }
 }

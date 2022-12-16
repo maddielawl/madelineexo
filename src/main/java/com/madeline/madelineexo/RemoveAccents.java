@@ -9,7 +9,7 @@ public class RemoveAccents {
         String input;
 
         // Print a prompt to the user
-        System.out.print("Enter a string with accents: ");
+        System.out.print("Entrez une phrase avec des accents: ");
         input = scanner.nextLine();
 
         // Remove the accents
@@ -17,7 +17,7 @@ public class RemoveAccents {
         unaccented = unaccented.replaceAll("[^\\p{ASCII}]", "");
 
         // Print the unaccented string
-        System.out.println("Unaccented string: " + unaccented);
+        System.out.println("Phrase sans accents: " + unaccented);
     }
 
 }

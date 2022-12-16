@@ -11,7 +11,7 @@ public class main {
 		System.out.println("1. Calculette, pour calculer");
 		System.out.println("2. Enlever des accents");
 		System.out.println("3. Générateur de classes aléatoire, jeu vide1o");
-		System.out.println("4. Répéter le nom : Simon");
+		System.out.println("4. Reveller le nom mystère");
 
 		int choice = sc.nextInt();
 
